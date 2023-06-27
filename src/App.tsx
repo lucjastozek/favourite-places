@@ -11,7 +11,7 @@ function App(): JSX.Element {
         <Place
           title="Freezing!"
           placeName="Yogurt Yoghurt Yogurté"
-          countryName="Afterlife"
+          countryName="The Good Place"
           image="https://cdn.vox-cdn.com/thumbor/pq4QnLBOocHclsSMVRI4XM1k0fU=/0x0:2000x1286/1200x0/filters:focal(0x0:2000x1286):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13695332/the_good_place_yogurt.jpg"
           location="Neighborhood 12358W, The Good Place, Afterlife"
           description="The best Frozen Yogurt in the whole Afterlife. A fruit of fabolous collaboration between Michael and Janet."
@@ -19,7 +19,7 @@ function App(): JSX.Element {
         <Place
           title="Quite mediocre"
           placeName="Mindy St. Claire's House"
-          countryName="Afterlife"
+          countryName="The Medium Place"
           image="https://storage.googleapis.com/moviemaps/img/1i2v.eeomid.940.jpg"
           location="Mindy St. Claire's House, The Medium Place, Afterlife"
           description="The best (only) place in The Medium Place. Remember to bring cocaine!"
