@@ -14,7 +14,7 @@ function Place(props: PlaceProps): JSX.Element {
       <h3 className="name">
         {props.placeName}, {props.countryName}
       </h3>
-      <i className="location">({props.location})</i>
+      <i className="location">{props.location}</i>
       <p className="description">{props.description}</p>
     </div>
   );
