@@ -1,4 +1,6 @@
-interface PlaceProps {
+import places from "./places";
+
+export interface PlaceProps {
   title: string;
   placeName: string;
   countryName: string;
@@ -20,4 +22,8 @@ function Place(props: PlaceProps): JSX.Element {
   );
 }
 
-export default Place;
+function Places(): JSX.Element {
+  return <>{places.map((place) => Place(place))}</>;
+}
+
+export default Places;
