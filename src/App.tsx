@@ -32,6 +32,14 @@ function App(): JSX.Element {
           location="The Museum Of Human Misery, The Bad Place, Afterlife"
           description="The best atraction in The Bad Place!!! I recommend going there with a crappy mood, alone."
         />
+        <Place
+          title="Hi/Bye!"
+          placeName="The Door to Earth"
+          countryName="Afterlife"
+          image="https://i.insider.com/5f737ff00ab50d00184ad128?width=600&format=jpeg&auto=webp"
+          location="The Door to Earth, Afterlife"
+          description="If you want a down-to-earth place, you should definitely visit this place. You can meet Jeff there!!! You better bring some froggy stuff with you though..."
+        />
       </div>
       <PageFooter />
     </>
